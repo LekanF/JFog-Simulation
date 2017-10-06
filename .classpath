@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Olamilekan/Desktop/PhD 2017/Summer/Research/VFog/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Olamilekan/Desktop/PhD2017/Summer/Research/VFog/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SSJ"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/2015SSJ"/>
+	<classpathentry kind="output" path="bin"/>
+	<referencedentry kind="lib" path="C:/Users/Olamilekan/Desktop/PhD 2017/Summer/Research/VFog/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar" sourcepath="C:/Users/Olamilekan/Desktop/PhD 2017/Summer/Research/VFog/jfreechart-1.0.19/source"/>
+</classpath>

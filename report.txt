@@ -1,0 +1,909 @@
+FOG RESOURCE REPORT:===========
+REPORT ON RESOURCE : 1
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       2.011
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       515
+   Service       3.3E-3     13.657       1.953      2.051       515
+   Sojourn       3.3E-3     13.657       1.953      2.051       515
+
+REPORT ON RESOURCE : 8
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          7       1.978
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       519
+   Service       8.0E-4     13.674       1.900      1.848       521
+   Sojourn       8.0E-4     13.674       1.900      1.848       521
+
+REPORT ON RESOURCE : 13
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          8       2.000
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       494
+   Service       5.5E-4     15.593       2.027      2.048       493
+   Sojourn       5.5E-4     15.593       2.027      2.048       493
+
+REPORT ON RESOURCE : 19
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0         10       2.232
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       523
+   Service       6.5E-4     11.958       2.130      2.130       524
+   Sojourn       6.5E-4     11.958       2.130      2.130       524
+
+REPORT ON RESOURCE : 26
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          9       2.020
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       501
+   Service       1.7E-3     11.436       2.007      1.884       503
+   Sojourn       1.7E-3     11.436       2.007      1.884       503
+
+REPORT ON RESOURCE : 37
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          7       2.158
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       503
+   Service       4.5E-3     13.974       2.144      2.126       503
+   Sojourn       4.5E-3     13.974       2.144      2.126       503
+
+REPORT ON RESOURCE : 42
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          9       2.016
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       524
+   Service       3.3E-4     10.749       1.923      1.852       525
+   Sojourn       3.3E-4     10.749       1.923      1.852       525
+
+REPORT ON RESOURCE : 49
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          7       2.270
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       503
+   Service       5.7E-3     14.545       2.248      2.348       506
+   Sojourn       5.7E-3     14.545       2.248      2.348       506
+
+REPORT ON RESOURCE : 64
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          7       2.006
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       508
+   Service       5.5E-3     13.100       1.972      2.084       509
+   Sojourn       5.5E-3     13.100       1.972      2.084       509
+
+REPORT ON RESOURCE : 77
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          6       1.761
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       441
+   Service       2.7E-3     16.763       2.005      2.170       441
+   Sojourn       2.7E-3     16.763       2.005      2.170       441
+
+REPORT ON RESOURCE : 80
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          8       2.191
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       520
+   Service       1.6E-3     12.950       2.099      2.047       524
+   Sojourn       1.6E-3     12.950       2.099      2.047       524
+
+REPORT ON RESOURCE : 82
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       2.006
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       531
+   Service       5.1E-3     13.180       1.890      1.931       532
+   Sojourn       5.1E-3     13.180       1.890      1.931       532
+
+REPORT ON RESOURCE : 92
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       2.019
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       526
+   Service       2.3E-3     13.311       1.919      1.838       526
+   Sojourn       2.3E-3     13.311       1.919      1.838       526
+
+REPORT ON RESOURCE : 143
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       2.332
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       530
+   Service       3.6E-3     17.664       2.208      2.284       533
+   Sojourn       3.6E-3     17.664       2.208      2.284       533
+
+REPORT ON RESOURCE : 152
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0         10       1.936
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       510
+   Service       1.7E-3     12.823       1.908      1.888       509
+   Sojourn       1.7E-3     12.823       1.908      1.888       509
+
+REPORT ON RESOURCE : 154
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          9       1.933
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       523
+   Service       4.7E-4     10.322       1.835      1.831       523
+   Sojourn       4.7E-4     10.322       1.835      1.831       523
+
+REPORT ON RESOURCE : 155
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0         11       2.002
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       505
+   Service        0.011     12.522       1.975      2.028       506
+   Sojourn        0.011     12.522       1.975      2.028       506
+
+REPORT ON RESOURCE : 158
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       1.992
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       481
+   Service       7.9E-3     15.029       2.077      2.234       484
+   Sojourn       7.9E-3     15.029       2.077      2.234       484
+
+REPORT ON RESOURCE : 162
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          8       2.082
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       516
+   Service       9.5E-3     14.178       2.007      2.007       515
+   Sojourn       9.5E-3     14.178       2.007      2.007       515
+
+REPORT ON RESOURCE : 165
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          9       2.154
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       538
+   Service       2.0E-3     14.793       2.003      1.961       536
+   Sojourn       2.0E-3     14.793       2.003      1.961       536
+
+REPORT ON RESOURCE : 181
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          8       2.169
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       529
+   Service       7.8E-3     12.478       2.050      1.983       529
+   Sojourn       7.8E-3     12.478       2.050      1.983       529
+
+REPORT ON RESOURCE : 183
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          13         13      13.000
+   Utilization        0          7       1.941
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       471
+   Service       1.7E-3     16.084       2.053      2.161       470
+   Sojourn       1.7E-3     16.084       2.053      2.161       470
+
+REPORT ON RESOURCE : 196
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          8       1.935
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       515
+   Service       7.6E-3     15.407       1.880      1.927       512
+   Sojourn       7.6E-3     15.407       1.880      1.927       512
+
+END OF FOG RESOURCE REPORT:===========
+Device Task REPORT:===========
+REPORT on Tally stat. collector ==> 10
+    num. obs.      min          max        average     standard dev.
+       515       3.3E-3       13.657        1.953        2.051
+REPORT on Tally stat. collector ==> 80
+    num. obs.      min          max        average     standard dev.
+       521       8.0E-4       13.674        1.900        1.848
+REPORT on Tally stat. collector ==> 130
+    num. obs.      min          max        average     standard dev.
+       493       5.5E-4       15.593        2.027        2.048
+REPORT on Tally stat. collector ==> 190
+    num. obs.      min          max        average     standard dev.
+       524       6.5E-4       11.958        2.130        2.130
+REPORT on Tally stat. collector ==> 260
+    num. obs.      min          max        average     standard dev.
+       503       1.7E-3       11.436        2.007        1.884
+REPORT on Tally stat. collector ==> 370
+    num. obs.      min          max        average     standard dev.
+       503       4.5E-3       13.974        2.144        2.126
+REPORT on Tally stat. collector ==> 420
+    num. obs.      min          max        average     standard dev.
+       525       3.3E-4       10.749        1.923        1.852
+REPORT on Tally stat. collector ==> 490
+    num. obs.      min          max        average     standard dev.
+       506       5.7E-3       14.545        2.248        2.348
+REPORT on Tally stat. collector ==> 640
+    num. obs.      min          max        average     standard dev.
+       509       5.5E-3       13.100        1.972        2.084
+REPORT on Tally stat. collector ==> 770
+    num. obs.      min          max        average     standard dev.
+       441       2.7E-3       16.763        2.005        2.170
+REPORT on Tally stat. collector ==> 800
+    num. obs.      min          max        average     standard dev.
+       524       1.6E-3       12.950        2.099        2.047
+REPORT on Tally stat. collector ==> 820
+    num. obs.      min          max        average     standard dev.
+       532       5.1E-3       13.180        1.890        1.931
+REPORT on Tally stat. collector ==> 920
+    num. obs.      min          max        average     standard dev.
+       526       2.3E-3       13.311        1.919        1.838
+REPORT on Tally stat. collector ==> 1430
+    num. obs.      min          max        average     standard dev.
+       533       3.6E-3       17.664        2.208        2.284
+REPORT on Tally stat. collector ==> 1520
+    num. obs.      min          max        average     standard dev.
+       509       1.7E-3       12.823        1.908        1.888
+REPORT on Tally stat. collector ==> 1540
+    num. obs.      min          max        average     standard dev.
+       523       4.7E-4       10.322        1.835        1.831
+REPORT on Tally stat. collector ==> 1550
+    num. obs.      min          max        average     standard dev.
+       506        0.011       12.522        1.975        2.028
+REPORT on Tally stat. collector ==> 1580
+    num. obs.      min          max        average     standard dev.
+       484       7.9E-3       15.029        2.077        2.234
+REPORT on Tally stat. collector ==> 1620
+    num. obs.      min          max        average     standard dev.
+       515       9.5E-3       14.178        2.007        2.007
+REPORT on Tally stat. collector ==> 1650
+    num. obs.      min          max        average     standard dev.
+       536       2.0E-3       14.793        2.003        1.961
+REPORT on Tally stat. collector ==> 1810
+    num. obs.      min          max        average     standard dev.
+       529       7.8E-3       12.478        2.050        1.983
+REPORT on Tally stat. collector ==> 1830
+    num. obs.      min          max        average     standard dev.
+       470       1.7E-3       16.084        2.053        2.161
+REPORT on Tally stat. collector ==> 1960
+    num. obs.      min          max        average     standard dev.
+       512       7.6E-3       15.407        1.880        1.927
+End of Device Task REPORT:===========
+FOG RESOURCE REPORT:===========
+REPORT ON RESOURCE : 1
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        3         10       9.770
+   Queue Size         0         67      16.013
+   Wait           0.000     14.537       3.361      3.044      2526
+   Service       1.3E-3     13.678       1.931      1.894      2526
+   Sojourn        0.018     21.937       5.339      3.567      2526
+
+REPORT ON RESOURCE : 8
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization       10         10      10.000
+   Queue Size       121        245     197.300
+   Wait          26.464     50.083      38.517      6.555      2472
+   Service       5.1E-4     23.206       2.021      2.020      2472
+   Sojourn       27.043     70.025      40.455      6.782      2472
+
+REPORT ON RESOURCE : 13
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        2         12       9.961
+   Queue Size         0         16       1.450
+   Wait           0.000      3.248       0.289      0.511      2512
+   Service       3.0E-4     17.565       1.982      1.925      2513
+   Sojourn       3.0E-4     18.235       2.270      1.989      2513
+
+REPORT ON RESOURCE : 19
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        2         11       9.780
+   Queue Size         0         27       3.313
+   Wait           0.000      4.750       0.662      0.923      2510
+   Service       1.7E-4     15.529       1.946      1.900      2514
+   Sojourn       1.7E-4     15.912       2.610      2.109      2514
+
+REPORT ON RESOURCE : 26
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization       10         10      10.000
+   Queue Size        62        121      89.990
+   Wait          11.540     25.781      17.963      3.030      2481
+   Service       4.4E-4     15.614       2.018      2.024      2481
+   Sojourn       12.037     38.604      19.970      3.617      2481
+
+REPORT ON RESOURCE : 37
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        3         10       9.814
+   Queue Size         0        109      47.150
+   Wait           0.000     21.044       9.647      5.963      2477
+   Service       2.4E-4     13.420       1.984      1.978      2477
+   Sojourn       6.6E-3     31.760      11.675      6.261      2477
+
+REPORT ON RESOURCE : 42
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        2         12      10.083
+   Queue Size         0         23       2.575
+   Wait           0.000      3.849       0.521      0.804      2471
+   Service       6.7E-4     17.020       2.045      2.052      2475
+   Sojourn       1.6E-3     17.020       2.566      2.214      2475
+
+REPORT ON RESOURCE : 49
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        1         11       9.709
+   Queue Size         0         25       3.039
+   Wait           0.000      4.825       0.613      0.907      2483
+   Service       1.6E-4     20.675       1.958      1.948      2483
+   Sojourn       1.6E-4     20.675       2.570      2.140      2483
+
+REPORT ON RESOURCE : 64
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        2         10       9.840
+   Queue Size         0         63      27.985
+   Wait           0.000     12.275       5.718      3.704      2423
+   Service       1.7E-3     15.869       2.026      2.012      2423
+   Sojourn        0.019     24.158       7.716      4.204      2423
+
+REPORT ON RESOURCE : 77
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        2         11      10.144
+   Queue Size         0         64       9.293
+   Wait           0.000     10.852       1.656      2.476      2608
+   Service       1.2E-4     15.577       1.941      1.928      2608
+   Sojourn       5.1E-3     22.359       3.567      3.032      2608
+
+REPORT ON RESOURCE : 80
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        1         11      10.061
+   Queue Size         0         54       9.044
+   Wait           0.000      8.953       1.868      2.515      2486
+   Service       1.6E-3     15.366       2.028      2.062      2490
+   Sojourn       3.4E-3     19.124       3.919      3.287      2490
+
+REPORT ON RESOURCE : 82
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        4         10       9.919
+   Queue Size         0        103      26.767
+   Wait           0.000     20.271       5.035      4.769      2457
+   Service       8.9E-4     13.907       2.016      2.010      2456
+   Sojourn       8.9E-4     27.020       6.974      5.120      2456
+
+REPORT ON RESOURCE : 92
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        3         10       9.951
+   Queue Size         0        110      52.821
+   Wait           0.000     21.977      10.588      5.509      2450
+   Service       1.1E-3     14.261       2.033      1.979      2450
+   Sojourn        0.026     28.033      12.575      5.822      2450
+
+REPORT ON RESOURCE : 143
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        9         10      10.000
+   Queue Size         0         98      46.457
+   Wait           0.000     18.746       9.201      4.417      2527
+   Service       1.2E-3     15.281       1.975      1.951      2527
+   Sojourn        0.474     29.683      11.182      4.773      2527
+
+REPORT ON RESOURCE : 152
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        2         10       9.595
+   Queue Size         0         62      18.235
+   Wait           0.000     11.751       3.747      3.119      2423
+   Service       2.6E-5     20.028       1.979      2.077      2421
+   Sojourn       1.3E-3     24.672       5.718      3.730      2421
+
+REPORT ON RESOURCE : 154
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        4         10       9.825
+   Queue Size         0         47      14.848
+   Wait           0.000      9.648       3.095      2.371      2411
+   Service       4.2E-4     23.091       2.035      2.014      2411
+   Sojourn        0.036     26.265       5.141      3.088      2411
+
+REPORT ON RESOURCE : 155
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        2         11       9.686
+   Queue Size         0         17       2.176
+   Wait           0.000      3.196       0.432      0.633      2498
+   Service       1.4E-3     13.305       1.932      1.916      2498
+   Sojourn       1.9E-3     13.931       2.361      2.000      2498
+
+REPORT ON RESOURCE : 158
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        4         10       9.968
+   Queue Size         0         49      16.649
+   Wait           0.000     10.516       3.401      2.132      2460
+   Service       2.8E-4     17.799       2.029      1.968      2460
+   Sojourn        0.043     20.006       5.431      2.828      2460
+
+REPORT ON RESOURCE : 162
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        1         12       9.447
+   Queue Size         0         15       0.845
+   Wait           0.000      2.174       0.174      0.390      2423
+   Service       6.2E-4     12.102       1.954      1.936      2419
+   Sojourn       1.3E-3     12.102       2.129      1.974      2419
+
+REPORT ON RESOURCE : 165
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        5         10       9.929
+   Queue Size         0         46      20.447
+   Wait           0.000     10.809       4.069      2.246      2501
+   Service       1.0E-3     20.411       1.992      2.013      2501
+   Sojourn        0.092     26.809       6.048      2.960      2501
+
+REPORT ON RESOURCE : 181
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        3         11      10.102
+   Queue Size         0         29       5.511
+   Wait           0.000      4.801       1.087      1.245      2535
+   Service       2.1E-4     17.219       1.993      2.026      2532
+   Sojourn       4.1E-3     19.121       3.081      2.340      2532
+
+REPORT ON RESOURCE : 183
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          13         13      13.000
+   Utilization        2         13       9.917
+   Queue Size         0         17       0.852
+   Wait           0.000      2.521       0.170      0.388      2503
+   Service       7.8E-4     20.974       1.982      1.955      2506
+   Sojourn       7.8E-4     20.974       2.152      1.985      2506
+
+REPORT ON RESOURCE : 196
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        3         12      10.132
+   Queue Size         0         30       2.051
+   Wait           0.000      4.735       0.409      0.817      2509
+   Service       7.8E-4     17.495       2.022      1.977      2506
+   Sojourn       2.2E-3     18.263       2.432      2.138      2506
+
+END OF FOG RESOURCE REPORT:===========
+Device Task REPORT:===========
+REPORT on Tally stat. collector ==> 10
+    num. obs.      min          max        average     standard dev.
+      2526        0.018       21.937        5.339        3.567
+REPORT on Tally stat. collector ==> 80
+    num. obs.      min          max        average     standard dev.
+      2472       27.043       70.025       40.455        6.782
+REPORT on Tally stat. collector ==> 130
+    num. obs.      min          max        average     standard dev.
+      2513       3.0E-4       18.235        2.270        1.989
+REPORT on Tally stat. collector ==> 190
+    num. obs.      min          max        average     standard dev.
+      2514       1.7E-4       15.912        2.610        2.109
+REPORT on Tally stat. collector ==> 260
+    num. obs.      min          max        average     standard dev.
+      2481       12.037       38.604       19.970        3.617
+REPORT on Tally stat. collector ==> 370
+    num. obs.      min          max        average     standard dev.
+      2477       6.6E-3       31.760       11.675        6.261
+REPORT on Tally stat. collector ==> 420
+    num. obs.      min          max        average     standard dev.
+      2475       1.6E-3       17.020        2.566        2.214
+REPORT on Tally stat. collector ==> 490
+    num. obs.      min          max        average     standard dev.
+      2483       1.6E-4       20.675        2.570        2.140
+REPORT on Tally stat. collector ==> 640
+    num. obs.      min          max        average     standard dev.
+      2423        0.019       24.158        7.716        4.204
+REPORT on Tally stat. collector ==> 770
+    num. obs.      min          max        average     standard dev.
+      2608       5.1E-3       22.359        3.567        3.032
+REPORT on Tally stat. collector ==> 800
+    num. obs.      min          max        average     standard dev.
+      2490       3.4E-3       19.124        3.919        3.287
+REPORT on Tally stat. collector ==> 820
+    num. obs.      min          max        average     standard dev.
+      2456       8.9E-4       27.020        6.974        5.120
+REPORT on Tally stat. collector ==> 920
+    num. obs.      min          max        average     standard dev.
+      2450        0.026       28.033       12.575        5.822
+REPORT on Tally stat. collector ==> 1430
+    num. obs.      min          max        average     standard dev.
+      2527        0.474       29.683       11.182        4.773
+REPORT on Tally stat. collector ==> 1520
+    num. obs.      min          max        average     standard dev.
+      2421       1.3E-3       24.672        5.718        3.730
+REPORT on Tally stat. collector ==> 1540
+    num. obs.      min          max        average     standard dev.
+      2411        0.036       26.265        5.141        3.088
+REPORT on Tally stat. collector ==> 1550
+    num. obs.      min          max        average     standard dev.
+      2498       1.9E-3       13.931        2.361        2.000
+REPORT on Tally stat. collector ==> 1580
+    num. obs.      min          max        average     standard dev.
+      2460        0.043       20.006        5.431        2.828
+REPORT on Tally stat. collector ==> 1620
+    num. obs.      min          max        average     standard dev.
+      2419       1.3E-3       12.102        2.129        1.974
+REPORT on Tally stat. collector ==> 1650
+    num. obs.      min          max        average     standard dev.
+      2501        0.092       26.809        6.048        2.960
+REPORT on Tally stat. collector ==> 1810
+    num. obs.      min          max        average     standard dev.
+      2532       4.1E-3       19.121        3.081        2.340
+REPORT on Tally stat. collector ==> 1830
+    num. obs.      min          max        average     standard dev.
+      2506       7.8E-4       20.974        2.152        1.985
+REPORT on Tally stat. collector ==> 1960
+    num. obs.      min          max        average     standard dev.
+      2506       2.2E-3       18.263        2.432        2.138
+End of Device Task REPORT:===========
+FOG RESOURCE REPORT:===========
+REPORT ON RESOURCE : 1
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       2.017
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1016
+   Service       3.4E-4      9.451       0.993      1.037      1014
+   Sojourn       3.4E-4      9.451       0.993      1.037      1014
+
+REPORT ON RESOURCE : 8
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       2.124
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1050
+   Service       9.0E-5      8.244       1.008      1.011      1047
+   Sojourn       9.0E-5      8.244       1.008      1.011      1047
+
+REPORT ON RESOURCE : 13
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          9       2.088
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1018
+   Service       4.4E-4      7.525       1.027      1.040      1015
+   Sojourn       4.4E-4      7.525       1.027      1.040      1015
+
+REPORT ON RESOURCE : 19
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          7       1.976
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       985
+   Service       6.6E-4      8.738       1.004      1.064       982
+   Sojourn       6.6E-4      8.738       1.004      1.064       982
+
+REPORT ON RESOURCE : 26
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0         10       2.138
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1026
+   Service       9.9E-5      8.633       1.043      1.037      1026
+   Sojourn       9.9E-5      8.633       1.043      1.037      1026
+
+REPORT ON RESOURCE : 37
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          9       1.885
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       974
+   Service       1.3E-3      9.808       0.967      1.007       973
+   Sojourn       1.3E-3      9.808       0.967      1.007       973
+
+REPORT ON RESOURCE : 42
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          8       2.075
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1008
+   Service       4.5E-4      7.726       1.027      1.028      1005
+   Sojourn       4.5E-4      7.726       1.027      1.028      1005
+
+REPORT ON RESOURCE : 49
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          9       2.086
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       999
+   Service       4.6E-4      7.690       1.046      1.066       995
+   Sojourn       4.6E-4      7.690       1.046      1.066       995
+
+REPORT ON RESOURCE : 64
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       1.870
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       982
+   Service       6.7E-4      6.088       0.952      0.925       979
+   Sojourn       6.7E-4      6.088       0.952      0.925       979
+
+REPORT ON RESOURCE : 77
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          9       2.060
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1030
+   Service       1.4E-3      8.041       0.997      1.004      1031
+   Sojourn       1.4E-3      8.041       0.997      1.004      1031
+
+REPORT ON RESOURCE : 80
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          8       1.873
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       981
+   Service       2.8E-3     12.210       0.954      0.963       980
+   Sojourn       2.8E-3     12.210       0.954      0.963       980
+
+REPORT ON RESOURCE : 82
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       1.999
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1066
+   Service       8.6E-4      9.484       0.937      0.971      1065
+   Sojourn       8.6E-4      9.484       0.937      0.971      1065
+
+REPORT ON RESOURCE : 92
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       1.806
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       934
+   Service       3.8E-4      7.048       0.966      0.974       935
+   Sojourn       3.8E-4      7.048       0.966      0.974       935
+
+REPORT ON RESOURCE : 143
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       1.936
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       987
+   Service       2.3E-3      7.322       0.981      0.974       987
+   Sojourn       2.3E-3      7.322       0.981      0.974       987
+
+REPORT ON RESOURCE : 152
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       1.936
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       977
+   Service       1.7E-3      5.909       0.991      0.983       976
+   Sojourn       1.7E-3      5.909       0.991      0.983       976
+
+REPORT ON RESOURCE : 154
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          9       1.938
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       991
+   Service       1.8E-4      8.562       0.979      0.959       994
+   Sojourn       1.8E-4      8.562       0.979      0.959       994
+
+REPORT ON RESOURCE : 155
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          7       1.867
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       979
+   Service       3.4E-3      6.371       0.959      0.976       978
+   Sojourn       3.4E-3      6.371       0.959      0.976       978
+
+REPORT ON RESOURCE : 158
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          9       2.008
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1024
+   Service       1.0E-3      8.440       0.983      1.000      1022
+   Sojourn       1.0E-3      8.440       0.983      1.000      1022
+
+REPORT ON RESOURCE : 162
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          7       2.093
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       978
+   Service       3.7E-4      8.115       1.071      1.096       980
+   Sojourn       3.7E-4      8.115       1.071      1.096       980
+
+REPORT ON RESOURCE : 165
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          10         10      10.000
+   Utilization        0          8       2.040
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1037
+   Service       2.9E-5     10.524       0.985      1.054      1037
+   Sojourn       2.9E-5     10.524       0.985      1.054      1037
+
+REPORT ON RESOURCE : 181
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          11         11      11.000
+   Utilization        0          9       1.945
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000       966
+   Service       2.0E-3      6.181       1.003      0.942       964
+   Sojourn       2.0E-3      6.181       1.003      0.942       964
+
+REPORT ON RESOURCE : 183
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          13         13      13.000
+   Utilization        0          9       2.084
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1045
+   Service       3.6E-4      7.866       1.000      1.027      1043
+   Sojourn       3.6E-4      7.866       1.000      1.027      1043
+
+REPORT ON RESOURCE : 196
+   From time :    0.00   to time :    1000.00
+                    min        max     average  standard dev.  nb. obs.
+   Capacity          12         12      12.000
+   Utilization        0          9       2.043
+   Queue Size         0          0       0.000
+   Wait           0.000      0.000       0.000      0.000      1024
+   Service       1.9E-4      9.247       0.996      1.067      1024
+   Sojourn       1.9E-4      9.247       0.996      1.067      1024
+
+END OF FOG RESOURCE REPORT:===========
+Device Task REPORT:===========
+REPORT on Tally stat. collector ==> 10
+    num. obs.      min          max        average     standard dev.
+      1014       3.4E-4        9.451        0.993        1.037
+REPORT on Tally stat. collector ==> 80
+    num. obs.      min          max        average     standard dev.
+      1047       9.0E-5        8.244        1.008        1.011
+REPORT on Tally stat. collector ==> 130
+    num. obs.      min          max        average     standard dev.
+      1015       4.4E-4        7.525        1.027        1.040
+REPORT on Tally stat. collector ==> 190
+    num. obs.      min          max        average     standard dev.
+       982       6.6E-4        8.738        1.004        1.064
+REPORT on Tally stat. collector ==> 260
+    num. obs.      min          max        average     standard dev.
+      1026       9.9E-5        8.633        1.043        1.037
+REPORT on Tally stat. collector ==> 370
+    num. obs.      min          max        average     standard dev.
+       973       1.3E-3        9.808        0.967        1.007
+REPORT on Tally stat. collector ==> 420
+    num. obs.      min          max        average     standard dev.
+      1005       4.5E-4        7.726        1.027        1.028
+REPORT on Tally stat. collector ==> 490
+    num. obs.      min          max        average     standard dev.
+       995       4.6E-4        7.690        1.046        1.066
+REPORT on Tally stat. collector ==> 640
+    num. obs.      min          max        average     standard dev.
+       979       6.7E-4        6.088        0.952        0.925
+REPORT on Tally stat. collector ==> 770
+    num. obs.      min          max        average     standard dev.
+      1031       1.4E-3        8.041        0.997        1.004
+REPORT on Tally stat. collector ==> 800
+    num. obs.      min          max        average     standard dev.
+       980       2.8E-3       12.210        0.954        0.963
+REPORT on Tally stat. collector ==> 820
+    num. obs.      min          max        average     standard dev.
+      1065       8.6E-4        9.484        0.937        0.971
+REPORT on Tally stat. collector ==> 920
+    num. obs.      min          max        average     standard dev.
+       935       3.8E-4        7.048        0.966        0.974
+REPORT on Tally stat. collector ==> 1430
+    num. obs.      min          max        average     standard dev.
+       987       2.3E-3        7.322        0.981        0.974
+REPORT on Tally stat. collector ==> 1520
+    num. obs.      min          max        average     standard dev.
+       976       1.7E-3        5.909        0.991        0.983
+REPORT on Tally stat. collector ==> 1540
+    num. obs.      min          max        average     standard dev.
+       994       1.8E-4        8.562        0.979        0.959
+REPORT on Tally stat. collector ==> 1550
+    num. obs.      min          max        average     standard dev.
+       978       3.4E-3        6.371        0.959        0.976
+REPORT on Tally stat. collector ==> 1580
+    num. obs.      min          max        average     standard dev.
+      1022       1.0E-3        8.440        0.983        1.000
+REPORT on Tally stat. collector ==> 1620
+    num. obs.      min          max        average     standard dev.
+       980       3.7E-4        8.115        1.071        1.096
+REPORT on Tally stat. collector ==> 1650
+    num. obs.      min          max        average     standard dev.
+      1037       2.9E-5       10.524        0.985        1.054
+REPORT on Tally stat. collector ==> 1810
+    num. obs.      min          max        average     standard dev.
+       964       2.0E-3        6.181        1.003        0.942
+REPORT on Tally stat. collector ==> 1830
+    num. obs.      min          max        average     standard dev.
+      1043       3.6E-4        7.866        1.000        1.027
+REPORT on Tally stat. collector ==> 1960
+    num. obs.      min          max        average     standard dev.
+      1024       1.9E-4        9.247        0.996        1.067
+End of Device Task REPORT:===========
