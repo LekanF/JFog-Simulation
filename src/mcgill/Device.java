@@ -23,6 +23,18 @@ public class Device {
 		this.devLatency = latency;
 	}
 	
+	public String toString()
+	{
+		return this.deviceId.toString();
+	}
+	
+//	public void  setLatency(double value){
+//		this.devLatency += value;
+//	}
+	
+	public double getDevLatatency(){
+		return devLatency;
+	}
 	public Task generateTasksRequest() throws FileNotFoundException, IOException{
 		Util.Compress numTasks;
 		numTasks = new Util.Compress();

@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -24,6 +25,8 @@ import java.awt.geom.Rectangle2D;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
+
+import com.sun.javafx.css.CalculatedValue;
 
 import mcgill.Util.Compress;
 import umontreal.iro.lecuyer.simprocs.*;
@@ -144,7 +147,7 @@ public class FogCreator  extends JFrame {
 			int src = myEdge.getSource(i);	
 			int dest = myEdge.getTarget(i);
 		
-			for (int j = 0; j < myMap.getSize(); j ++){
+			for (int j = 0; j < myMap.getSize(); j++){
 				// Gets long and lat for edge src
 				if (myMap.getId(j) == src){
 					srcLong = myMap.getLong(j);
@@ -229,7 +232,7 @@ public class FogCreator  extends JFrame {
 	
 		
 		for(int i = 0; i < fogs.size();i++){ //  Adds data from google to cogent nodes, only 23
-//		for(int i = 0; i < 1;i++){// fog.size instead of 10 
+//		for(int i = 0; i < 10;i++){// fog.size instead of 10 
 			//Simple way, just add a machine to a fog and multiply the capapcity by 10 for aggregation
 //				Fog capacitatedFog = new Fog(fogs.get(i), Mcapacity.machine.getCPU(i)*20, Mcapacity.machine.getMemory(i) );
 			Fog capacitatedFog = new Fog(fogs.get(i).getId(), fogs.get(i), machineCPU.get(i), machineMem.get(i) );
@@ -286,17 +289,44 @@ public class FogCreator  extends JFrame {
 
 		// Here we create devices around all fogs but more around googlefogs.
 		for (Fog fog : googleFogs) {
-			int random = (int)(Math.random() * 3 + 1); // create a random number of devices up to 20
+			int random = (int)(Math.random() * 2 + 1); // create a random number of devices up to 20
 //			for(Integer i = 0; i < random; i++){
-			for(Integer i = 0; i < 1; i++){ // put random instead of 1 because with 1, I am creating one device per fog
+			for(Integer i = 0; i < 5; i++){ // put random instead of 1 because with 1, I am creating one device per fog
 //				Device myDevice = new Device(fog.fog.getId(), fog.fog.getLongitude(), fog.fog.getLatitude(), calEdgeLatencies());
 				String id = fog.fog.getId().toString() + i.toString();
+				// Here we are creating devices around a fog and giving it latency to that particular fog
 				Device myDevice = new Device(Integer.parseInt(id), fog.fog.getLongitude(), fog.fog.getLatitude(), calEdgeLatencies());
+//				myDevice.insertLatency(calEdgeLatencies() + Latency.DFLatency(myDevice, fog));
 				allDevices.add(myDevice);				
 			}
 			//System.out.println("Devices size per fog increasing : "+allDevices.size());
 		}
+		
 		return allDevices;
+	}
+	static LinkedList<Double> waitList;
+	static LinkedList<Double> servList;
+	
+	public static void PSserveTask(Device d, Fog f, int num, double delay) throws FileNotFoundException, IOException{
+		getNodeEdge();
+		waitList = new LinkedList<Double>();
+		
+		int capacity = f.getCapacity();
+		if (num < capacity){
+			capacity -= num;
+			waitList.add(0.0);
+			servList.add(delay);
+			capacity += num;
+			// after its finished add the resource back, 
+			//but we need to deal with time
+		}
+		else
+		{
+			delay = delay + 2.0; // Do the maths
+			servList.add(delay);
+		}
+		
+		
 	}
 	
 	public void fogPS(Device.Task t){
@@ -329,6 +359,11 @@ public class FogCreator  extends JFrame {
 		double average = 0, total = 0, sd = 0, stdev = 0;
 		//Get latency with respect to 0;
 		for (Fog fog : googleFogs) {
+//		for ( int i = 0 ; i < googleFogs.size(); i ++){
+			// this is wrong, I need to get the edges and compute the mean and std
+			
+//			res = latent.queueLatency(googleFogs.get(0).fog.getLongitude(), googleFogs.get(0).fog.getLatitude() ,googleFogs.get(i).fog.getLongitude(), googleFogs.get(i).fog.getLatitude());
+//			Above, I mapped the first fog as a relative to other fogs.
 			res = latent.queueLatency(0, 0, fog.fog.getLongitude(), fog.fog.getLatitude());
 			fogLatencyNumbers.add(res);
 		}
@@ -347,6 +382,7 @@ public class FogCreator  extends JFrame {
 			for (int j = 0; j < random; j++){
 			// Create a task per fog
 				Device fogDevice  = new Device(devlat, numTasks.task.getNumCPU(j), numTasks.task.getMem(j));
+//				Device fogDevice  = new Device(Latency.DFLatency(fogDevice, fog), numTasks.task.getNumCPU(j), numTasks.task.getMem(j));
 				allDevices.add(fogDevice);
 			}
 			
@@ -415,6 +451,7 @@ public class FogCreator  extends JFrame {
 					Math.pow(d.getDeviceLatitude() - f.fog.getLatitude(), 2));
 			double latency = requestSize/bandwidth + delay;
 			return latency;
+//			return delay;
 		}
 		
 		public void algorithm(){

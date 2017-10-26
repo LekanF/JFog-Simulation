@@ -178,7 +178,7 @@ import umontreal.iro.lecuyer.stat.*;
 //}
 
 public class QueueProc {
-	Resource server = new Resource (2, "Server");
+	Resource server = new Resource (1, "Server");
 //	Resource pool = new Resource
 	RandomVariateGen genArr;
 	RandomVariateGen genServ;
@@ -209,7 +209,7 @@ public class QueueProc {
 	}
 	public static void main (String[] args) {
 		QueueProc queue = new QueueProc (1.0, 2.0);
-		queue.simulateOneRun (100.0);
+		queue.simulateOneRun (1000.0);
 		System.out.println (queue.server.report());
 	}
 }

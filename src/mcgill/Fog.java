@@ -7,6 +7,7 @@ public class Fog {
 	Double longitude, latitude, cpu, memory;
 	Fog fog;
 	Resource jresource;
+	Util.UtilizationMap utilise; //= new Util.UtilizationMap();
 	
 	public Integer getId() {
 		return id;
@@ -55,9 +56,15 @@ public class Fog {
 		this.cpu = c;
 		this.memory = mem;
 //		jresource = new Resource((Integer)mem.intValue(), ID.toString());
-//		jresource = new Resource(10, ID.toString());}
-		jresource = new Resource(this.cpu.intValue(), ID.toString());}
+//		jresource = new Resource(100, ID.toString());
+		jresource = new Resource(this.cpu.intValue(), ID.toString());
+		utilise = new Util.UtilizationMap();
+	}
 	
+	public int getCapacity(){
+		return this.cpu.intValue();
+		
+	}
 //	public void acceptRequest(Device r){
 //		r = new Device();
 //		if (r.getZone_id().equals(zone_id)){

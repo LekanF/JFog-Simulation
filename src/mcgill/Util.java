@@ -26,6 +26,33 @@ public class Util {
 		
 	}
 	
+	public static class UtilizationMap{
+		List<Double> resourceUsed;
+		List<Double> time;
+		
+		public UtilizationMap(){
+			resourceUsed = new ArrayList<Double>();
+			time  = new ArrayList<Double>();
+		}
+		
+		public void update(double res, double t){
+			resourceUsed.add(res);
+			time.add(t);
+		}
+		
+		public Double getResource(int index){
+			return resourceUsed.get(index);
+		}
+		
+		public Double getTime(int index){
+			return time.get(index);
+		}
+		
+		public Integer getSize(){
+			return time.size();
+		}
+	}
+	
 	public static class InputMap{
 		List<Integer> ids;
 		List<Double> lats;

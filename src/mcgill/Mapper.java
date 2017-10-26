@@ -104,5 +104,64 @@ package mcgill;
 //
 //}
 //
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
+public class Mapper{
+	
 
-public class Mapper{}
+
+//	public class Main {
+
+	   private static int count = 0;
+
+	   public static void main(String[] args) throws IOException {
+	        System.out.println("Hello World!");
+
+	       // give the path to the folder where the submissions are
+	        try (Stream<Path> paths = Files.walk(Paths.get("C:\\Users\\Olamilekan\\Desktop\\PhD2017\\Fall\\COMP206\\A2\\Ass2\\"))) {
+	            paths.filter(Files::isRegularFile).forEach(path -> {
+	                try {
+	                    renameFile(path);
+	                } catch (IOException e) {
+	                    e.printStackTrace();
+	                }
+	            });
+	        }
+	    }
+
+	   private static void renameFile(Path path) throws IOException {
+	        File file = path.toFile();
+
+	       String fileName = file.getName();
+	        int indexOfFirstName = fileName.indexOf(" - ");
+
+	       if (indexOfFirstName != -1){
+	            fileName = fileName.substring(indexOfFirstName + 3);
+	        }
+
+
+	       if (fileName.equals("index.html")){
+	            fileName = "index_" + count + ".html";
+	            count++;
+	        }
+
+	       System.out.println(fileName);
+	        //Path to store the renamed file
+	        File file2 = new File("C:\\Users\\Olamilekan\\Desktop\\PhD2017\\Fall\\COMP206\\A2\\New\\" + fileName);
+
+	       if (file2.exists())
+	            throw new java.io.IOException("file exists");
+
+	       boolean success = file.renameTo(file2);
+	        if (!success) {
+	            System.out.println("ERROR..." + fileName);
+	        }
+	    }
+
+
+//	}
+}
